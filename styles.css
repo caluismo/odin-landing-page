@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-back {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    background-color: #1F2937 ;
+    flex: 1 1 auto;
+    color: white;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 10px 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 20px;
+    margin: 0px;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 70px 0px;
+}
+
+.top-info-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100px;
+}
+
+.top-info-left-title {
+    display: flex;
+    flex-direction: row;
+    min-width: 0px;
+    width: 200px;
+    margin: 0px;
+}
+
+
+.top-info-right {
+    display: flex;
+    background-color: grey;
+    padding: 60px;
+    flex: 1 1 100px;
+    justify-content: center;
+}
+
+.top-info-left-button {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    color: white;
+    min-width: 0;
+    width: 75px;
+    justify-content: center;
+}
+
+
+
+
+
