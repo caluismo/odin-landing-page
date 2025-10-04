@@ -209,6 +209,18 @@ img {
     width: 90px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+}
+
+footer {
+    font-size: small;
+}
 
 
 
